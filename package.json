@@ -1,11 +1,16 @@
 {
-  "homepage": "https://github.com/bhavikbhoir/react-trial.git",
-  "name": "react-trial",
+  "name": "Vyorius-task",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.14.5",
+    "node": "13.12.0"
+  },
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "cra-template": "1.0.3",
     "react": "16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1"
   },
