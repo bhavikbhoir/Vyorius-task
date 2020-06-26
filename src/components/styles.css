@@ -1,37 +1,93 @@
-/* #images{
-    background-image:  url("../assets/Map.jpg");
-    background-size: cover;
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#images img{
-    width: 150px;
-    height: 150px;
-} */
-
+.navbar{
+    border-top: 1.5px solid #e8e8e8;
+    border-bottom: 1.5px solid #e8e8e8;
+    margin: 2rem 0rem;
+}
 .navbar-brand{
     display: inline-flex
 }
-.navbar-brand p{
+.navbar-brand img{
+    height: 32px;
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: orange;
-    font-weight: bold;
+    margin-right: 0.5rem;
+}
+#basic-navbar-nav{
+    padding-top: 0.625rem;
 }
 .nav-link {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 .btn{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 600;
     color: #fff;
-    background-color: orange;
-    border-color: orange;
+    background-color: #ed7d31;
+    border-color: #ed7d31;
+    border-radius: 10px;
+}
+.btn:hover, .btn:active,.btn:focus{
+    background-color: white;
+    color: #ed7d31;
+    border-color: #ed7d31;;
+}
+svg{
+    width: 24px;
+    height: 24px;
+    font-weight: bold;
 }
 .content{
+    height: 500px;
+    width: 100%;
     padding: 20px;
 }
+.content h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.content p{
+    text-align: left;
+    margin-top: 0.5rem;
+}
 .content-text{
+    font-size: 1.7rem;
+    text-align: left;
+    /* font-weight: bold; */
+    letter-spacing: -1px;
+}
+.content-text #title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ed7d31;
+}
+.content #get-started{
+    font-size: 1.2rem;
+}
+.content-buttons{
+    width: 80%;
     text-align: left;
 }
+.content-buttons .btn{
+    width: inherit;
+    padding: 0.75rem;
+}
+#learn-button{
+    background-color: white;
+    color: #ed7d31;
+}
+#learn-button:hover, #learn-button:active, #learn-button:focus{
+    background-color:#ed7d31; 
+    color: white;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):focus {
+    color: white;
+    border-color: #ed7d31; 
+    background-color: #ed7d31;
+    outline-color: #ed7d31; 
+    box-shadow: none!important;
+  }
