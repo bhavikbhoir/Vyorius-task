@@ -25,7 +25,7 @@ export default class Header extends Component {
                     <Nav.Link href="#">Partners</Nav.Link>
                     <Nav.Link href="#">Contact us</Nav.Link>
                     </Nav>
-                    <Button>Launch Vyoris <IoIosArrowForward /> </Button>
+                    <Button>Launch Vyorius <IoIosArrowForward /> </Button>
                 </Navbar.Collapse>
                 </Navbar>
             </div>

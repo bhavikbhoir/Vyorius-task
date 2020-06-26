@@ -14,8 +14,8 @@ body{
     margin-top: 1rem;
     margin-right: 0.5rem;
 }
-#basic-navbar-nav{
-    padding-top: 0.625rem;
+#basic-navbar-nav {
+    padding: 0 5rem 0 0;
 }
 .nav-link {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -44,10 +44,10 @@ svg{
 .content{
     height: 500px;
     width: 100%;
-    padding: 20px;
+    padding: 5rem;
 }
 .content h1{
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 .content p{
