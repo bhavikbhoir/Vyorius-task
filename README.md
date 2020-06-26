@@ -2,7 +2,7 @@
 
 ## This App was created in React
 
-Additionally packages installed:
+Additional packages installed:
 
 ### npm install react-bootstrap
 ### npm install save -- bootstrap
