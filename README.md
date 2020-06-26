@@ -8,4 +8,4 @@ Additional packages installed:
 ### npm install save -- bootstrap
 ### npm install react-icons 
 
-You can find the app at https://vyoristask.herokuapp.com/
+You can find the app at https://vyoriustask.herokuapp.com/
