@@ -57,7 +57,6 @@ svg{
 .content-text{
     font-size: 1.7rem;
     text-align: left;
-    /* font-weight: bold; */
     letter-spacing: -1px;
 }
 .content-text #title{
